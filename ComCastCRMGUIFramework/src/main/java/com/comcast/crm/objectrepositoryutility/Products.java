@@ -10,8 +10,7 @@ public class Products {
 	
 	@FindBy(name="searchBtn")
 	private WebElement Ele3;
-	
-	
+	//search
 	@FindBy(name="search")
 	private WebElement ele2;
 	
