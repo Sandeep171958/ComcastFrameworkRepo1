@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tp.crm.vendorsTest.CreateVendorsTest">
+        <methods>
+          <include name="configureAC"/>
+          <include name="configureBeforeMethod"/>
+          <include name="configureAS"/>
+          <include name="configureAF"/>
+          <include name="createVendors"/>
+          <include name="configureBS"/>
+          <include name="configureBeforeClass"/>
+        </methods>
+      </class> <!-- tp.crm.vendorsTest.CreateVendorsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
