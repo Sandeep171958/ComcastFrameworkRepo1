@@ -1,25 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-16T14:12:45 IST" name="Default suite" finished-at="2024-09-16T14:13:57 IST" duration-ms="71937">
+  <suite started-at="2024-09-16T17:03:21 IST" name="Suite" finished-at="2024-09-16T17:08:27 IST" duration-ms="306042">
     <groups>
     </groups>
-    <test started-at="2024-09-16T14:12:45 IST" name="Default test" finished-at="2024-09-16T14:13:57 IST" duration-ms="71937">
-      <class name="tp.crm.vendorsTest.CreateVendorsTest">
-        <test-method is-config="true" signature="configureBS()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:12:45 IST" name="configureBS" finished-at="2024-09-16T14:12:45 IST" duration-ms="69" status="PASS">
+    <test started-at="2024-09-16T17:03:21 IST" name="Test" finished-at="2024-09-16T17:08:27 IST" duration-ms="306042">
+      <class name="tp.crm.productTest.CreateProductTest">
+        <test-method is-config="true" signature="configureBS()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:03:21 IST" name="configureBS" finished-at="2024-09-16T17:03:21 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureBS -->
-        <test-method is-config="true" signature="configureBeforeClass()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:12:45 IST" name="configureBeforeClass" finished-at="2024-09-16T14:12:54 IST" duration-ms="9402" status="PASS">
+        <test-method is-config="true" signature="configureBeforeClass()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:03:21 IST" name="configureBeforeClass" finished-at="2024-09-16T17:03:32 IST" duration-ms="11397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureBeforeClass -->
-        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:12:54 IST" name="configureBeforeMethod" finished-at="2024-09-16T14:13:15 IST" duration-ms="21014" status="PASS">
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:03:32 IST" name="configureBeforeMethod" finished-at="2024-09-16T17:03:57 IST" duration-ms="24560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureBeforeMethod -->
-        <test-method signature="createVendors()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:13:16 IST" name="createVendors" finished-at="2024-09-16T14:13:47 IST" duration-ms="31279" status="FAIL">
+        <test-method signature="createProduct()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:03:57 IST" name="createProduct" finished-at="2024-09-16T17:04:54 IST" duration-ms="57214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="configureAF()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:04:54 IST" name="configureAF" finished-at="2024-09-16T17:04:59 IST" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAF -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:04:59 IST" name="configureBeforeMethod" finished-at="2024-09-16T17:05:12 IST" duration-ms="12380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createProductWithVendors()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:05:12 IST" name="createProductWithVendors" finished-at="2024-09-16T17:06:32 IST" duration-ms="79831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductWithVendors -->
+        <test-method is-config="true" signature="configureAF()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:06:32 IST" name="configureAF" finished-at="2024-09-16T17:06:37 IST" duration-ms="5303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAF -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:06:37 IST" name="configureBeforeMethod" finished-at="2024-09-16T17:06:48 IST" duration-ms="10668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createProductwithPartNumberAndDates()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:06:48 IST" name="createProductwithPartNumberAndDates" finished-at="2024-09-16T17:07:22 IST" duration-ms="34732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductwithPartNumberAndDates -->
+        <test-method is-config="true" signature="configureAF()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:07:22 IST" name="configureAF" finished-at="2024-09-16T17:07:27 IST" duration-ms="4258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAF -->
+        <test-method is-config="true" signature="configureAC()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:07:27 IST" name="configureAC" finished-at="2024-09-16T17:07:27 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAC -->
+        <test-method is-config="true" signature="configureAS()[pri:0, instance:tp.crm.productTest.CreateProductTest@5b218417]" started-at="2024-09-16T17:08:27 IST" name="configureAS" finished-at="2024-09-16T17:08:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAS -->
+      </class> <!-- tp.crm.productTest.CreateProductTest -->
+      <class name="tp.crm.vendorsTest.CreateVendorsTest">
+        <test-method is-config="true" signature="configureBeforeClass()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@5032714f]" started-at="2024-09-16T17:07:27 IST" name="configureBeforeClass" finished-at="2024-09-16T17:07:33 IST" duration-ms="5305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@5032714f]" started-at="2024-09-16T17:07:33 IST" name="configureBeforeMethod" finished-at="2024-09-16T17:07:48 IST" duration-ms="14946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createVendors()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@5032714f]" started-at="2024-09-16T17:07:48 IST" name="createVendors" finished-at="2024-09-16T17:08:10 IST" duration-ms="22313" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title="Create Vendor..."]"}
@@ -28,9 +78,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7eaedac0c8a3cbf5f4ca841b68cc68ea, findElement {value=//img[@title="Create Vendor..."], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51129/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7eaedac0c8a3cbf5f4ca841b68cc68ea]]>
+Command: [388969b1f10d4999381661097bc8fc6e, findElement {value=//img[@title="Create Vendor..."], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 388969b1f10d4999381661097bc8fc6e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title="Create Vendor..."]"}
@@ -39,9 +89,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7eaedac0c8a3cbf5f4ca841b68cc68ea, findElement {value=//img[@title="Create Vendor..."], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51129/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7eaedac0c8a3cbf5f4ca841b68cc68ea
+Command: [388969b1f10d4999381661097bc8fc6e, findElement {value=//img[@title="Create Vendor..."], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 388969b1f10d4999381661097bc8fc6e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -59,7 +109,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy19.click(Unknown Source)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
 at tp.crm.vendorsTest.CreateVendorsTest.createVendors(CreateVendorsTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -95,19 +145,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createVendors -->
-        <test-method is-config="true" signature="configureAF()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:13:48 IST" name="configureAF" finished-at="2024-09-16T14:13:56 IST" duration-ms="8094" status="PASS">
+        <test-method is-config="true" signature="configureAF()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@5032714f]" started-at="2024-09-16T17:08:10 IST" name="configureAF" finished-at="2024-09-16T17:08:25 IST" duration-ms="14948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAF -->
-        <test-method is-config="true" signature="configureAC()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:13:56 IST" name="configureAC" finished-at="2024-09-16T14:13:57 IST" duration-ms="601" status="PASS">
+        <test-method is-config="true" signature="configureAC()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@5032714f]" started-at="2024-09-16T17:08:25 IST" name="configureAC" finished-at="2024-09-16T17:08:27 IST" duration-ms="2062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAC -->
-        <test-method is-config="true" signature="configureAS()[pri:0, instance:tp.crm.vendorsTest.CreateVendorsTest@cc43f62]" started-at="2024-09-16T14:13:57 IST" name="configureAS" finished-at="2024-09-16T14:13:57 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAS -->
       </class> <!-- tp.crm.vendorsTest.CreateVendorsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

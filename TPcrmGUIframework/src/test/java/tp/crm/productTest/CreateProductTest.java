@@ -16,7 +16,7 @@ import tp.crm.genericUtility.objectrepository.createProductPage;
 
 public class CreateProductTest extends BaseClass {
 
-	@Test
+	@Test(groups="SmokeTest")
 	public void createProduct() throws Throwable {
 		String productName = excel.getdataFromExcel("product", 1, 2) + java.randomNumber();
 
@@ -35,7 +35,7 @@ public class CreateProductTest extends BaseClass {
 
 	}
 
-	@Test
+	@Test(groups="SmokeTest")
 	public void createProductwithPartNumberAndDates() throws Throwable {
 		String productName = excel.getdataFromExcel("product", 4, 2) + java.randomNumber();
 		String partName = excel.getdataFromExcel("product", 4, 3);
@@ -58,7 +58,7 @@ public class CreateProductTest extends BaseClass {
 		Assert.assertEquals(status, true);
 
 	}
-	@Test
+	@Test(groups="RegressionTest")
 	
 	public void createProductWithVendors() throws Throwable {
 		String vendorName = excel.getdataFromExcel("vendors", 1, 2);

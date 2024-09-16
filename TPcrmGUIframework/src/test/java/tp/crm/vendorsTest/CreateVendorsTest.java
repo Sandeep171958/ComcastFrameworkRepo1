@@ -11,7 +11,7 @@ import tp.crm.genericUtility.objectrepository.VendorsPage;
 /**
  * @author LENOVO
  */
-@Listeners(tp.crm.genericUtility.listners.ListnerImpClass.class)
+//@Listeners(tp.crm.genericUtility.listners.ListnerImpClass.class)
 
 public class CreateVendorsTest extends BaseClass {
 
